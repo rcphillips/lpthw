@@ -1,0 +1,12 @@
+print("How old are you?", end=' ')
+age = input()
+print("How tall are you?", end=' ')
+height = input()
+print("How much do you weigh?", end=' ')
+weight = input()
+print(f"So you're {age} old, {height} tall and {weight} heavy.", end=' ')
+
+print("How old is Ripley?", end='\t')
+rip_age = int(input())
+age_percentage = round(rip_age/int(age)*100, 2)
+print(f"So that means lil' Rip is {age_percentage}% as old as you. Lil' guy!")
