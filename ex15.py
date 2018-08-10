@@ -1,6 +1,7 @@
 # this imports the argv module from the sys library?
 from sys import argv
-# the argv module [0] is the script. We can set it up such that we run
+# the argv module [0] is the script name. Like, the file name. We can set it up
+# such that we run
 # the script WITH additional arguments, anad those will be passed in order
 # to the variables when argv is 'unpacked' like here
 script, filename = argv
@@ -14,6 +15,7 @@ print(f"Here's your file {filename}:")
 # this is reading the file with no parameters?
 print(txt.read())
 
+# i don't really understand what close() does.
 txt.close()
 
 '''
