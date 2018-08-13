@@ -1,0 +1,98 @@
+Python Terms and Symbols Used
+
+print()		- outputs text to the terminal
+	print(f) 			- lets you add varible contents into the text, 						  along with {}
+	print(, end=' ')	- lets you modify the end character from \n of a 					   printed string
+""			-	sets the interior as a string, can have ''
+
+abc, etc	-	just letters
+
+# 			-	comments text out, does not run
+
++			-	adds ints and rounds, concatenates strings
+
+/			-	divides
+
+-			-	subtracts
+
+*			-	multiples
+
+=			-	sets the leftside object to the rightside value
+
+==			-	checks if leftside evalues to be equal to rightside. If 				so, True. Otherwise, False.
+
+<=			-	less than or equal to
+
+>=			-	greater than or equal to
+
+''			-	also sets the interior to a string. can have "" in it
+
+False		-	boolean. When == is not equal. Does not... make the thing happen.
+
+True		-	boolean
+
+And 		-	logical statement
+
+Or			-	logical statement
+
+{}			-	lets you embed a variable name in a string
+
+,			-	separates things
+
+round()		-	rounds a float() to the number of decimal places specified in the second argument
+
+float()		-	it's like int() but it has decimal places. I guess it's called a floating point number
+
+int()		-	sets the interior to number
+
+str()		-	sets the interior to a string
+
+_			- 	underscore. Used as spaces, to seperate out text like one_dozen_eggs or something
+
+.format()	-	 appears to set the interior to a string. Another way of 
+				print(f)-ing
+
+\n			-	newline 
+
+\t 			-	tab in
+
+'''			-	opens and closes multi-line comment
+
+\b			-	backspaces! cool. Deletes the previous character
+
+\\			-	inserts a \ in a string
+
+input()		-	halts until recieves return from keyboard. can set to a variable.
+
+from 		- 	identify a module from which you will pull functions
+
+sys 		-	system features module? not really sure why it's called sys
+
+import		- 	add a function from a module to a current environment
+
+argv		-	lets you put in command line arguments when you start a script. argv[0] is the script pathname
+	
+open()		- 	you give open() a filename, for say a .txt and it like. Creates a python object related to that file.
+
+.read()		-	you can print the entire document you've opened
+
+.close()	-	you remove (and save changes to?) the document object you've opened.
+
+pydoc		-	a help file system
+
+.truncate()	-	I guess it removes the text file? I don't really get it
+
+.write()	-	you can add stuff to a text document
+
+def function_name(*args):		- the basics of defining a function
+
+while		- a condition
+
+:			- included at the end of def, for, while, and others. defines the end of the setup for these.
+
+.readline()	- reads (and advances!) forward in the text document you've opened. advances till \n is encountered, i think
+
+.seek(0)	- returns the "reading cursor" to the beginning of the doc.
+
+
+
