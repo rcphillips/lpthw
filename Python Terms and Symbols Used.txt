@@ -94,5 +94,17 @@ while		- a condition
 
 .seek(0)	- returns the "reading cursor" to the beginning of the doc.
 
+.encode()	- seems like this gives a 1-1 key for getting letters from what's on a keyboard to what's stored in a computer
 
+.decode()	- does the reverse of the above
+
+codec		- eg. utf-8, utf-16, big5. These are some common mappings for encode and decode
+
+.strip()	- removes the next line?? or like, places the current line somewhere?
+
+chr()		- gets you the character for some input in bits or ascii codes?
+
+ord()		- converts a character TO ascii?
+
+Documentation Comments 		- You can put """Comments right after defining a function, and then they will be retrievable.""" Using help(thatfile.thatfunction) !!!
 
