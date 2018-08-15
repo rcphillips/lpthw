@@ -108,3 +108,7 @@ ord()		- converts a character TO ascii?
 
 Documentation Comments 		- You can put """Comments right after defining a function, and then they will be retrievable.""" Using help(thatfile.thatfunction) !!!
 
+range(a, b) - gives you a (list?) set of numbers starting at a and going 				to b-1. b is not included!!
+
+
+
