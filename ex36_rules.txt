@@ -24,3 +24,20 @@ in small chunks. Like this:
 5. Quickly run the script to see if it worked.
 6. Keep working in a cycle of write, run, fix.
 7. Cross the task off, pick the next easiest, and repeat.
+
+The Best Way to Read Unfamiliar Code:
+1. Print it out. A couple pages at a time.
+
+2. Read it, taking notes on:
+	- Functions and what they do
+	- Where each variable is first given a value
+	- Any variables with the same names in different parts of the program. There may be trouble later.
+	- Any if-statements without else clauses.
+	- Any while-loops that might not end.
+	- Any parts of the code you can't understand.
+
+3. comment it out line by line.
+4. On the difficult parts, trace the values of each variable line by line,
+function by function. Do another printout, and write the variable you're tracing.
+
+

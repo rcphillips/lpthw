@@ -65,3 +65,9 @@ if not state:
 # get a city with a default value
 city = cities.get('TX', 'Does Not Exist')
 print(f"The city for the state 'TX' is: {city}")
+
+# dictionaries are mappings between names and info.
+# ugg okay to find something in a dict, you use dictname[feature]
+# i wish it was dictname{feature}
+
+# anyway
