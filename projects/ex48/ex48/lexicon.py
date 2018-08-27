@@ -52,5 +52,3 @@ sentence = [first_word, second_word, third_word]
 # and finally we're going to return a tuple indicating the 
 # type of word, and the word itself.
 #these last three seem like they'll be in a function
-
-print(sentence)
